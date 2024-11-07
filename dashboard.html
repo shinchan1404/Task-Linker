@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>User Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <h1>User Dashboard</h1>
+        <select id="options" onchange="loadContent()">
+            <option value="">Select an option</option>
+            <option value="profile">Profile</option>
+            <option value="taskList">Task List</option>
+            <option value="leaderboard">Leaderboard</option>
+            <option value="search">Search</option>
+            <option value="chat">Chat</option>
+        </select>
+        <div id="content"></div>
+    </div>
+
+    <!-- Include your JavaScript file here -->
+    <script src="script.js"></script>
+</body>
+</html>
